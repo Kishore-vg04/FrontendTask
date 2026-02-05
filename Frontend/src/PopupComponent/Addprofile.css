@@ -1,0 +1,44 @@
+.input-main{
+    margin-top: 10px;
+    background-color: #2b9ff7;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 1px 1px 9px 1px rgb(0, 0, 0,0.9);
+}
+.input{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: bold;
+}
+.input label{
+    padding-right: 20px;
+}
+
+.input input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+.input input:focus{
+    background-color:azure;
+}
+.input button{
+    padding: 10px 20px;
+    color:rgb(43, 159, 247) ;
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+   
+}
+.input button:hover{
+    box-shadow: 1px 1px 20px 3px rgb(225, 227, 230);
+    transition: 0.5s;
+}

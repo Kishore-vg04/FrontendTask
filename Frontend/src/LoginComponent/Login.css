@@ -1,0 +1,89 @@
+*{
+    top: 0;
+    margin: 0px;
+}
+
+/* Overall page styling */
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, #04f7fb, #46c4cb);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for the login box */
+.maincontainer {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.8);
+    width: 400px;
+}
+
+/* Heading style */
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 8px;
+    font-size: 25px;
+    letter-spacing: 2px;
+
+}
+
+/* Input container styling */
+.inputcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3px;
+}
+
+/* Label styling */
+.inputcontainer label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555555;
+}
+
+/* Input field styling */
+.inputcontainer input {
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+/* Input focus effect */
+.inputcontainer input:focus {
+    border-color: #4facfe;
+    box-shadow: 0 0 5px rgba(79, 172, 254, 0.5);
+}
+
+.login button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4facfe;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+
+/* Button hover effect */
+.login button:hover {
+    background-color: #00c6ff;
+}
+
+/* Optional: small responsive adjustment */
+@media (max-width: 400px) {
+    .maincontainer {
+        width: 90%;
+        padding: 30px 20px;
+    }
+}
